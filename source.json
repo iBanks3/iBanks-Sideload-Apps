@@ -1,7 +1,7 @@
 {
   "name": "iBanks Apps",
   "subtitle": "Official sideloadable apps by iBanks",
-  "description": "Unsigned app packages for compatible sideloading installers. Each installer signs apps for your device.",
+  "description": "Official sideloadable apps by iBanks. Setup options: https://ibanks.craft.me/tsVhkxyAO5ZyQM",
   "iconURL": "https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/icons/widget-for-messages.png",
   "website": "https://github.com/iBanks3/iBanks-Sideload-Apps",
   "apps": [
@@ -59,7 +59,56 @@
           "NSPhotoLibraryAddUsageDescription": "Save shortcut icons to your Photos library when you choose Save to Photos."
         }
       }
+    },
+    {
+      "name": "Automation Control",
+      "bundleIdentifier": "com.iBanks.Automation-Control",
+      "developerName": "iBanks",
+      "subtitle": "Manage your Shortcuts automations",
+      "localizedDescription": "Create control items and conditions for Apple Shortcuts automations. Before replacing an App Store or TestFlight installation, export a .ctrl backup to Files outside the app. The sideloaded build may use different Apple service entitlements. App guide: https://ibanks.craft.me/6kbyyNVhWXjawv Sideloading options: https://ibanks.craft.me/tsVhkxyAO5ZyQM",
+      "iconURL": "https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/icons/automation-control.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.11",
+          "buildVersion": "12",
+          "date": "2026-11-18",
+          "localizedDescription": "Build 12 improves backup-file selection and validates a backup before Clear All and Import. Device testing of backup import is still pending. Back up existing data before changing installation.",
+          "downloadURL": "https://github.com/iBanks3/iBanks-Sideload-Apps/releases/download/automation-control-2.11-b12/Automation-Control-2.11-build12-import-fix-unsigned.ipa",
+          "size": 28494634,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCalendarsFullAccessUsageDescription": "Automation Control reads event names from your calendars to evaluate the calendar conditions you configure.",
+          "NSCalendarsUsageDescription": "Automation Control needs access to your calendar to check event names for automation conditions.",
+          "NSFileProviderPresenceUsageDescription": "We need access to your documents to select Controller and Scheduler images.",
+          "NSFocusStatusUsageDescription": "Focus mode status is used to trigger automations based on your Focus settings.",
+          "NSLocalNetworkUsageDescription": "This app needs access to your local network to be used as a automation condition in the Automation Control app.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "location access allows automations to trigger based on your location even when the app is not active.",
+          "NSLocationAlwaysUsageDescription": "This app needs access to your location to set automation conditions.",
+          "NSLocationUsageDescription": "This app needs access to your location to set automation conditions.",
+          "NSLocationWhenInUseUsageDescription": "Your location is used to trigger automation based on your current location.",
+          "NSMicrophoneUsageDescription": "Microphone access is needed for Siri voice commands to control your automation items.",
+          "NSMotionUsageDescription": "Automation Control needs Motion & Fitness access to check device motion conditions such as walking, running, cycling, and driving.",
+          "NSPhotoLibraryUsageDescription": "Photo access is needed to allow you to customize automation items with images.",
+          "NSSiriUsageDescription": "Allow Automation Control to work with Siri and Shortcuts",
+          "NSSpeechRecognitionUsageDescription": "Speech recognition is used to understand your voice commands for controlling automation items.",
+          "NSWeatherKitUsageDescription": "This app requires access to your location to set automation conditions based on weather."
+        }
+      }
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "How to sideload these apps",
+      "identifier": "sideloading-guide-2026-11-18",
+      "caption": "Compare sideloading tools and signing methods before installing.",
+      "date": "2026-11-18",
+      "url": "https://ibanks.craft.me/tsVhkxyAO5ZyQM",
+      "notify": false
+    }
+  ]
 }
