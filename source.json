@@ -1,0 +1,39 @@
+{
+  "name": "iBanks Apps",
+  "subtitle": "Official sideloadable apps by iBanks",
+  "description": "Unsigned app packages for compatible sideloading installers. Each installer signs apps for your device. Privy Archive is private and is not distributed here.",
+  "iconURL": "https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/icons/widget-for-messages.png",
+  "website": "https://github.com/iBanks3/iBanks-Sideload-Apps",
+  "apps": [
+    {
+      "name": "Widget for Messages Sideloaded",
+      "bundleIdentifier": "com.iBanks.Widget-for-Messages.local",
+      "developerName": "iBanks",
+      "subtitle": "Messages widgets for iPhone and iPad",
+      "localizedDescription": "Display selected message conversations in home screen widgets. The sideloaded edition uses local device data and a companion Shortcut for message intake. See the app guide for setup and platform-specific behavior: https://ibanks.craft.me/Es3CS1kds2eyE6",
+      "iconURL": "https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/icons/widget-for-messages.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.0",
+          "buildVersion": "115",
+          "date": "2026-11-18",
+          "localizedDescription": "Sideloaded edition with widget sizes unlocked. Requires setup using the companion Shortcut. iOS/iPadOS package; visionOS package is available on the GitHub release page.",
+          "downloadURL": "https://github.com/iBanks3/iBanks-Sideload-Apps/releases/download/widget-for-messages-2.0-b115/Widget-for-Messages-Sideloaded-iOS-iPadOS-115-unsigned.ipa",
+          "size": 45383316,
+          "minOSVersion": "18.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSContactsUsageDescription": "Widget for Messages needs access to your contacts to identify message senders and organize conversations using contact groups you create. This helps display contact names and photos in your message widgets.",
+          "NSUserNotificationsUsageDescription": "Widget for Messages Sideloaded can send you notifications about new messages to help you stay updated. You can customize notification settings for each conversation."
+        }
+      }
+    }
+  ],
+  "news": []
+}
