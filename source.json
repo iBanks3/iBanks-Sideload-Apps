@@ -1,7 +1,7 @@
 {
   "name": "iBanks Apps",
   "subtitle": "Official sideloadable apps by iBanks",
-  "description": "Unsigned app packages for compatible sideloading installers. Each installer signs apps for your device. Privy Archive is private and is not distributed here.",
+  "description": "Unsigned app packages for compatible sideloading installers. Each installer signs apps for your device.",
   "iconURL": "https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/icons/widget-for-messages.png",
   "website": "https://github.com/iBanks3/iBanks-Sideload-Apps",
   "apps": [

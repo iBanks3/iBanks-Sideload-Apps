@@ -8,8 +8,6 @@ The catalog currently lists **Widget for Messages Sideloaded 2.0** for iPhone an
 
 **Shortcuts Time Machine** will be added after a fresh device build is validated. Its [app guide](https://ibanks.craft.me/fyLKg0ThsOoT5z) is available now.
 
-**Privy Archive remains private.** No Privy Archive package or metadata is included in this public repository.
-
 These IPAs are unsigned. Your sideloading app signs the package for your device. Preserve the app's bundle ID when updating, and back up app data before changing signing identity or uninstalling an existing installation. The repository stores app packages and version history; it does not store your messages, shortcuts, or app data.
 
 ## Publishing updates
