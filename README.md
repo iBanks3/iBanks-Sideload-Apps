@@ -4,9 +4,7 @@ Add this source URL to FlareStore or another AltStore Classic compatible sideloa
 
 `https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/source.json`
 
-The catalog currently lists **Widget for Messages Sideloaded 2.0** for iPhone and iPad. The [GitHub release](https://github.com/iBanks3/iBanks-Sideload-Apps/releases/tag/widget-for-messages-2.0-b115) also has its visionOS IPA. See the [Widget for Messages guide](https://ibanks.craft.me/Es3CS1kds2eyE6) for setup details.
-
-**Shortcuts Time Machine** will be added after a fresh device build is validated. Its [app guide](https://ibanks.craft.me/fyLKg0ThsOoT5z) is available now.
+The catalog lists **Widget for Messages Sideloaded 2.0** and **Shortcuts Time Machine 1.0 (build 51)** for iPhone and iPad. The [Widget for Messages release](https://github.com/iBanks3/iBanks-Sideload-Apps/releases/tag/widget-for-messages-2.0-b115) also has its visionOS IPA. The [Shortcuts Time Machine release](https://github.com/iBanks3/iBanks-Sideload-Apps/releases/tag/shortcuts-time-machine-1.0-b51) has its iOS/iPadOS IPA. See the [Widget for Messages guide](https://ibanks.craft.me/Es3CS1kds2eyE6) and [Shortcuts Time Machine guide](https://ibanks.craft.me/fyLKg0ThsOoT5z) for setup details.
 
 These IPAs are unsigned. Your sideloading app signs the package for your device. Preserve the app's bundle ID when updating, and back up app data before changing signing identity or uninstalling an existing installation. The repository stores app packages and version history; it does not store your messages, shortcuts, or app data.
 

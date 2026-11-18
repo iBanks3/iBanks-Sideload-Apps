@@ -33,6 +33,32 @@
           "NSUserNotificationsUsageDescription": "Widget for Messages Sideloaded can send you notifications about new messages to help you stay updated. You can customize notification settings for each conversation."
         }
       }
+    },
+    {
+      "name": "Shortcuts Time Machine",
+      "bundleIdentifier": "com.ibanks.ShortcutsBackupVersionControl",
+      "developerName": "iBanks",
+      "subtitle": "Back up and inspect Apple Shortcuts",
+      "localizedDescription": "Keep versioned backups of your Apple Shortcuts, compare versions, inspect actions, and export readable action details. See the app guide for setup and feature details: https://ibanks.craft.me/fyLKg0ThsOoT5z",
+      "iconURL": "https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/icons/shortcuts-time-machine.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "51",
+          "date": "2026-11-18",
+          "localizedDescription": "Existing sideloaded build 51. Includes readable action list exports and clear separators between multiple Shortcuts.",
+          "downloadURL": "https://github.com/iBanks3/iBanks-Sideload-Apps/releases/download/shortcuts-time-machine-1.0-b51/Shortcuts-Time-Machine-unsigned-multi-list-separator.ipa",
+          "size": 6385144,
+          "minOSVersion": "27.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Save shortcut icons to your Photos library when you choose Save to Photos."
+        }
+      }
     }
   ],
   "news": []
