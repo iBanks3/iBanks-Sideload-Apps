@@ -1,5 +1,7 @@
 # iBanks sideloading source
 
+This is the single public hosting repository. Its `source.json` is the iPhone/iPad catalog and release record. Other device packages can be attached to the same GitHub releases without creating another repository. The private apps are served separately from the Mac mini; their iPhone/iPad and visionOS catalog files are generated from one private release manifest.
+
 Add this source URL to FlareStore or another AltStore Classic compatible sideloading app:
 
 `https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/source.json`
