@@ -1,0 +1,48 @@
+{
+  "name": "iBanks Apps",
+  "subtitle": "Official sideloadable apps by iBanks",
+  "description": "Official sideloadable apps for Apple Vision Pro by iBanks. Setup options: https://ibanks.craft.me/tsVhkxyAO5ZyQM",
+  "iconURL": "https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/icons/widget-for-messages.png",
+  "website": "https://github.com/iBanks3/iBanks-Sideload-Apps",
+  "apps": [
+    {
+      "name": "Widget for Messages Sideloaded",
+      "bundleIdentifier": "com.iBanks.Widget-for-Messages.local",
+      "developerName": "iBanks",
+      "subtitle": "Messages widgets for Apple Vision Pro",
+      "localizedDescription": "Widget for Messages Sideloaded for Apple Vision Pro. Uses local device data and a companion Shortcut for message intake. See the app guide for platform-specific setup: https://ibanks.craft.me/Es3CS1kds2eyE6",
+      "iconURL": "https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/icons/widget-for-messages.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.0",
+          "buildVersion": "115",
+          "date": "2026-11-18",
+          "localizedDescription": "Vision Pro build 115 of the sideloaded edition. Requires setup using the companion Shortcut.",
+          "downloadURL": "https://github.com/iBanks3/iBanks-Sideload-Apps/releases/download/widget-for-messages-2.0-b115/Widget-for-Messages-Sideloaded-visionOS-115-unsigned.ipa",
+          "size": 17329823,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSContactsUsageDescription": "Widget for Messages needs access to your contacts to identify message senders and organize conversations using contact groups you create. This helps display contact names and photos in your message widgets.",
+          "NSUserNotificationsUsageDescription": "Widget for Messages Sideloaded can send you notifications about new messages to help you stay updated. You can customize notification settings for each conversation."
+        }
+      }
+    }
+  ],
+  "news": [
+    {
+      "title": "How to sideload these apps",
+      "identifier": "sideloading-guide-2026-11-18",
+      "caption": "Compare sideloading tools and signing methods before installing.",
+      "date": "2026-11-18",
+      "url": "https://ibanks.craft.me/tsVhkxyAO5ZyQM",
+      "notify": false
+    }
+  ]
+}

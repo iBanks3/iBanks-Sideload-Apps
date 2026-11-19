@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 """Check an AltStore Classic source and the IPA metadata it advertises."""
 import json
+import argparse
 import pathlib
 import plistlib
 import urllib.request
 import zipfile
 
-SOURCE = pathlib.Path(__file__).resolve().parents[1] / "source.json"
+parser = argparse.ArgumentParser()
+parser.add_argument("source", nargs="?", default="source.json")
+args = parser.parse_args()
+SOURCE = pathlib.Path(__file__).resolve().parents[1] / args.source
 source = json.loads(SOURCE.read_text())
 assert source.get("name") and isinstance(source.get("apps"), list)
 seen = set()

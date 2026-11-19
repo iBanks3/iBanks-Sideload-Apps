@@ -2,9 +2,13 @@
 
 The [Popular Sideloading Tools/Services guide](https://ibanks.craft.me/tsVhkxyAO5ZyQM) compares AltStore Classic, SideStore, Sideloadly, Feather, TrollStore, and FlareStore, including their signing and refresh requirements. Choose a tool that supports your device and iOS version.
 
-If your installer accepts AltStore Classic sources, add this URL once:
+On iPhone or iPad, if your installer accepts AltStore Classic sources, add this URL:
 
 `https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/source.json`
+
+On Apple Vision Pro, add the public Vision Pro source URL:
+
+`https://raw.githubusercontent.com/iBanks3/iBanks-Sideload-Apps/main/visionos-source.json`
 
 The source shows available apps, release notes, and updates. The IPAs are unsigned; your installer must sign them for your device. Use a consistent signing setup and bundle ID when updating an existing sideloaded app. App permissions and Apple services depend on the signing identity and its entitlements.
 
@@ -19,4 +23,4 @@ Installing an update over an existing sideloaded app with the same bundle ID may
 
 ## Other platforms
 
-The standard source lists iOS/iPadOS packages. A visionOS IPA for Widget for Messages is on its [release page](https://github.com/iBanks3/iBanks-Sideload-Apps/releases/tag/widget-for-messages-2.0-b115). Mac packages, when available, are separate downloads.
+The Vision Pro source lists Widget for Messages build 115 and links its visionOS IPA from the [release page](https://github.com/iBanks3/iBanks-Sideload-Apps/releases/tag/widget-for-messages-2.0-b115). Mac packages, when available, are separate downloads.
