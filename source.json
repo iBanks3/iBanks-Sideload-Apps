@@ -70,6 +70,15 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "2.12",
+          "buildVersion": "13",
+          "date": "2026-11-20",
+          "localizedDescription": "Adds Quiet Automation Trigger per scheduler control item, off by default. Quiet items use passive notifications without sound; other items keep full notifications. The setting is saved in local data and .ctrl backups. iOS 27 Shortcuts triggering with passive notifications awaits on-device testing. Includes the build 12 backup import and sideload startup fixes.",
+          "downloadURL": "https://github.com/iBanks3/iBanks-Sideload-Apps/releases/download/automation-control-2.12-b13/Automation-Control-2.12-build13-quiet-mode-unsigned.ipa",
+          "size": 28489208,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.11",
           "buildVersion": "12",
           "date": "2026-11-18",
@@ -102,6 +111,14 @@
     }
   ],
   "news": [
+    {
+      "title": "Automation Control 2.12: Quiet Automation Trigger",
+      "identifier": "automation-control-2.12-b13-quiet-mode",
+      "caption": "Try quiet notifications per control item while keeping other automation alerts visible. iOS 27 Shortcuts behavior needs device testing.",
+      "date": "2026-11-20",
+      "url": "https://github.com/iBanks3/iBanks-Sideload-Apps/releases/tag/automation-control-2.12-b13",
+      "notify": false
+    },
     {
       "title": "How to sideload these apps",
       "identifier": "sideloading-guide-2026-11-18",
