@@ -70,6 +70,15 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "2.13",
+          "buildVersion": "14",
+          "date": "2026-11-22",
+          "localizedDescription": "Adds a Dismiss Trigger Notifications action for iOS 27 notification automations. Put it before Run Shortcut to remove delivered Automation Control trigger notifications for control items with Dismiss Notification enabled. Foreground triggers dismiss after about 1.5 seconds; background removal requires the Shortcuts action because local notification delivery does not wake the app. Includes per-item Quiet Mode. Signed-device test pending.",
+          "downloadURL": "https://github.com/iBanks3/iBanks-Sideload-Apps/releases/download/automation-control-2.13-b14/Automation-Control-2.13-build14-dismiss-fix-unsigned.ipa",
+          "size": 28494585,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.12",
           "buildVersion": "13",
           "date": "2026-11-20",
@@ -111,6 +120,14 @@
     }
   ],
   "news": [
+    {
+      "title": "Automation Control 2.13: Dismiss Trigger Notifications",
+      "identifier": "automation-control-2.13-b14-dismiss-fix",
+      "caption": "New Shortcuts action removes delivered trigger notifications for items with dismissal enabled. Add it to your iOS 27 notification automation.",
+      "date": "2026-11-22",
+      "url": "https://github.com/iBanks3/iBanks-Sideload-Apps/releases/tag/automation-control-2.13-b14",
+      "notify": false
+    },
     {
       "title": "Automation Control 2.12: Quiet Automation Trigger",
       "identifier": "automation-control-2.12-b13-quiet-mode",

@@ -21,6 +21,10 @@ The source shows available apps, release notes, and updates. The IPAs are unsign
 
 Installing an update over an existing sideloaded app with the same bundle ID may preserve local data, but a different signing team or an uninstall can change that outcome. The source and IPA downloads do not carry your personal app data.
 
+## Automation Control notification dismissal
+
+On iOS 27, open the Shortcuts automation triggered by an Automation Control notification. Add the **Dismiss Trigger Notifications** action from Automation Control before **Run Shortcut**. Keep **Dismiss Notification** enabled on each control item whose notifications should be removed. The action only clears eligible Automation Control trigger notifications; foreground notifications also dismiss automatically after about 1.5 seconds. Scheduled local notifications do not wake the app in the background, so the toggle alone cannot guarantee immediate background removal.
+
 ## Other platforms
 
 The Vision Pro source lists Widget for Messages build 115 and links its visionOS IPA from the [release page](https://github.com/iBanks3/iBanks-Sideload-Apps/releases/tag/widget-for-messages-2.0-b115). Mac packages, when available, are separate downloads.
